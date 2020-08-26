@@ -1,0 +1,37 @@
+.App {
+  overflow: hidden;
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+
+.App-header {
+  background-image: url('./Pattern.png');
+  background-color: #0E4D98;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: black;
+}
+
+.Link-logo{
+  height: 10vmin;
+  pointer-events: none;
+  padding-right: 3vmin;
+  padding-left: 3vmin;
+}
+
+.box{
+  background-color: rgba(255, 255, 255, 0.9);
+  padding-right: 3vmin;
+  padding-left: 3vmin;
+  border-radius: 5vmin;
+
+}
